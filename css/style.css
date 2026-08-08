@@ -69,7 +69,6 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -106,11 +105,10 @@ body {
   transition: width 0.1s ease-out;
 }
 
-/* ==================== Floating Controls (الأزرار العائمة) ==================== */
 .floating-controls {
   position: fixed;
   bottom: 25px;
-  inset-inline-start: 20px;   /* يتحرك تلقائياً حسب الاتجاه */
+  inset-inline-start: 20px;
   z-index: 999;
   display: flex;
   flex-direction: column;
@@ -118,21 +116,18 @@ body {
   gap: 12px;
 }
 
-/* حاوية السوشيال ميديا */
 .social-controls {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-/* حاوية الإعدادات واللغة */
 .settings-controls {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-/* أزرار السوشيال */
 .social-btn {
   display: inline-flex;
   align-items: center;
@@ -181,7 +176,6 @@ body {
 }
 
 
-/* أزرار اللغة والثيم والجسيمات */
 .lang-toggle-btn,
 .theme-toggle-btn,
 .particles-toggle-btn {
@@ -217,7 +211,6 @@ body {
   color: #fff;
 }
 
-/* ==================== Back To Top ==================== */
 .back-to-top {
   position: fixed;
   bottom: 25px;
@@ -248,7 +241,6 @@ body {
   background: var(--blue-500);
 }
 
-/* ==================== Search ==================== */
 .search-container {
   position: relative;
   width: 100%;
@@ -286,7 +278,6 @@ body {
   opacity: 0.6;
 }
 
-/* ==================== Mouse Glow ==================== */
 .mouse-glow {
   position: fixed;
   top: 0;
@@ -333,7 +324,6 @@ body {
   background-size: 40px 40px;
 }
 
-/* ==================== Menu Toggle ==================== */
 .menu-toggle {
   display: none;
   position: fixed;
@@ -390,7 +380,6 @@ body {
   pointer-events: auto;
 }
 
-/* ==================== Sidebar ==================== */
 .sidebar {
   position: fixed;
   top: 0;
@@ -462,7 +451,6 @@ body {
   font-size: 1.2rem;
 }
 
-/* ==================== Main Content ==================== */
 .main-content {
   margin-inline-start: var(--sidebar-width);
   padding: 0 40px 60px;
@@ -555,7 +543,6 @@ body {
   box-shadow: 0 8px 25px rgba(37, 99, 235, 0.6);
 }
 
-/* ==================== Sections ==================== */
 .hack-section {
   content-visibility: auto;
   contain-intrinsic-size: 800px;
@@ -767,7 +754,6 @@ body {
   box-shadow: 0 -3px 50px rgba(0, 180, 255, 0.9);
 }
 
-/* ==================== FAQ ==================== */
 .faq-accordion {
   display: flex;
   flex-direction: column;
@@ -828,7 +814,6 @@ body {
   padding: 0 24px 20px 24px;
 }
 
-/* ==================== Toast ==================== */
 .toast-container {
   position: fixed;
   bottom: 25px;
@@ -859,7 +844,6 @@ body {
   transform: translateY(0);
 }
 
-/* ==================== Lightbox ==================== */
 .image-modal {
   display: none;
   position: fixed;
@@ -928,7 +912,6 @@ body {
   font-size: 1rem;
 }
 
-/* ==================== Responsive ==================== */
 @media (max-width: 992px) {
   .menu-toggle {
     display: flex;
