@@ -1,1 +1,310 @@
-const I18N={'en':{'siteConfig':{'siteName':'Pro\x20Hacker','tagline':'The\x20Premium\x20Directory\x20for\x20Roblox\x20Executors.','heroButton':'View\x20Executors','heroBadge':'🔥\x20Roblox\x20Exploits\x20Hub\x20—\x20Undetected\x20Hacks\x20🔥','statLabel':'Available\x20Hacks','footerText':'Pro\x20Hacker\x20©\x202026\x20—\x20Premium\x20Roblox\x20Hacks','downloadBtnText':'Download','downloadBtnSubtext':'Secure\x20&\x20Verified\x20Setup','downloadToastMsg':'Starting\x20download\x20redirect...','statusWorking':'Working\x20&\x20Undetected','scriptHubTitle':'Script\x20Hub','scriptHubDesc':'Quickly\x20copy\x20useful\x20scripts\x20and\x20execution\x20codes.','faqTitle':'Frequently\x20Asked\x20Questions','faqDesc':'Everything\x20you\x20need\x20to\x20know\x20about\x20using\x20our\x20tools.','copyText':'Copy\x20Code','copiedText':'Copied!'},'sections':[{'id':'real-executor','title':'Real\x20Executor','icon':'💎','version':'v1.4.1','description':'Advanced\x20execution\x20engine\x20optimized\x20for\x20stability,\x20high\x20performance,\x20and\x20smooth\x20script\x20execution.','downloads':[{'label':'Download\x20Real\x20Executor','subtext':'Secure\x20&\x20Verified\x20Setup','link':'https://short-jambo.ink/fWJ1kb'}],'features':[{'title':'Tabbed\x20IDE\x20&\x20Script\x20Explorer','desc':'Advanced\x20script\x20creation\x20workspace\x20supporting\x20multi-tab\x20editing,\x20real-time\x20syntax\x20highlighting,\x20tab\x20system,\x20and\x20quick\x20sidebar\x20file\x20exploration.','badge':'Editor','image':'images/real1.png'},{'title':'License\x20&\x20System\x20Overview','desc':'Transparent\x20access\x20plan\x20management\x20including\x20secure\x20key\x20validation,\x20hardware\x20compatibility\x20reporting,\x20and\x20detailed\x20version\x201.4.1\x20change-logs.','badge':'Dashboard','image':'images/real2.png'},{'title':'Cloud\x20Script\x20Hub\x20&\x20Discovery','desc':'Browse,\x20save,\x20and\x20launch\x20hundreds\x20of\x20community-verified\x20execution\x20scripts\x20and\x20built-in\x20anti-cheat\x20removal\x20protocols\x20directly\x20from\x20the\x20cloud\x20repository.','badge':'Integrated\x20Hub','image':'images/real3.png'},{'title':'Hardware\x20Spoofer\x20&\x20Drivers','desc':'Integrated\x20MAC\x20address\x20randomizer,\x20smart\x20kernel\x20driver\x20loaders,\x20and\x20automatic\x20log\x20cleaners\x20designed\x20to\x20maintain\x20total\x20privacy\x20and\x20secure\x20bypasses.','badge':'Stealth\x20Security','image':'images/real4.png'}]},{'id':'velocity-executor','title':'Velocity','icon':'🚀','version':'v1.2.4','description':'Next-gen\x20execution\x20framework\x20v1.2.4\x20built\x20for\x20high-speed\x20script\x20processing,\x20streamproof\x20protection,\x20and\x20full\x20UI\x20customization.','downloads':[{'label':'Download\x20Velocity','subtext':'Fast\x20&\x20Lightweight','link':'https://short-jambo.ink/2emp'}],'features':[{'title':'High-Performance\x20Script\x20Environment','desc':'Features\x20a\x20modern\x20multi-tab\x20code\x20editor\x20with\x20fast\x20environment\x20functions,\x20full\x20global\x20support\x20(getscripts,\x20getsenv,\x20getthreadidentity),\x20and\x20integrated\x20output\x20debugging.','badge':'IDE\x20&\x20Execution','image':'images/velocity1.png'},{'title':'Streamproof\x20&\x20Interface\x20Controls','desc':'Advanced\x20configuration\x20suite\x20including\x20Top\x20Most\x20display\x20toggle,\x20Screen\x20Capture\x20/\x20OBS\x20Hiding\x20for\x20seamless\x20recording,\x20and\x20automated\x20UI\x20element\x20size\x20preservation.','badge':'Settings\x20&\x20Stealth','image':'images/velocity2.png'}]},{'id':'xeno-executor','title':'Xeno','icon':'🪐','version':'v1.3.55','description':'Hack\x20for\x20running\x20powerful\x20Roblox\x20scripts,\x20featuring\x20support\x20for\x20a\x20wide\x20range\x20of\x20scripts\x20and\x20multiple\x20interfaces\x20to\x20suit\x20all\x20use\x20cases','downloads':[{'label':'Download\x20Xeno\x20Legacy','subtext':'The\x20Classic\x20Version','link':'https://short-jambo.ink/fWJ1kb'},{'label':'Download\x20Xeno\x20Modern','subtext':'The\x20modern\x20Version','link':'https://short-jambo.ink/2emp'}],'features':[{'title':'Xeno\x20Legacy\x20Interface','desc':'A\x20lightweight,\x20straightforward\x20interface\x20featuring\x20a\x20top\x20tab\x20bar\x20and\x20a\x20quick-access\x20toolbar\x20at\x20the\x20bottom,\x20with\x20full\x20support\x20for\x20script\x20execution','badge':'Legacy\x20Edition','image':'images/xeno_legacy.png'},{'title':'Xeno\x20Modern\x20Dashboard','desc':'A\x20sophisticated\x20design\x20featuring\x20a\x20side\x20menu\x20for\x20managing\x20the\x20operator,\x20library,\x20and\x20settings,\x20alongside\x20an\x20advanced\x20script\x20editor','badge':'Modern\x20Edition','image':'images/xeno_modern.png'}]}],'scripts':[{'title':'Infinite\x20Yield\x20Admin\x20Script','code':'loadstring(game:HttpGet(\x27https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source\x27))()'},{'title':'Fly\x20Script\x20(Universal)','code':'loadstring(game:HttpGet(\x27https://raw.githubusercontent.com/jensonhirst/FlyScript/main/FlyScript.lua\x27))()'}],'faqs':[{'question':'Are\x20these\x20executors\x20safe\x20to\x20use?','answer':'Yes,\x20all\x20links\x20and\x20files\x20are\x20thoroughly\x20checked\x20and\x20verified\x20before\x20listing.\x20We\x20ensure\x20maximum\x20security\x20and\x20stealth\x20against\x20detections.'},{'question':'How\x20do\x20I\x20fix\x20issues\x20where\x20the\x20executor\x20closes\x20on\x20start?','answer':'Make\x20sure\x20your\x20Antivirus\x20/\x20Windows\x20Defender\x20real-time\x20protection\x20is\x20temporarily\x20turned\x20off,\x20as\x20false\x20positives\x20are\x20common\x20with\x20executor\x20tools.'},{'question':'What\x20should\x20I\x20do\x20if\x20a\x20link\x20isn\x27t\x20working?','answer':'Check\x20your\x20internet\x20connection\x20or\x20ad-blocker\x20settings.\x20If\x20the\x20download\x20link\x20remains\x20unavailable,\x20please\x20check\x20back\x20shortly.'}]},'ar':{'siteConfig':{'siteName':'برو\x20هاكر','tagline':'الدليل\x20المميز\x20من\x20هاكات\x20روبلوكس','heroButton':'استعراض\x20الهاكات','heroBadge':'🔥\x20مركز\x20هاكات\x20روبلوكس\x20—\x20هاكات\x20غير\x20مكتشفة\x20🔥','statLabel':'الهاكات\x20المتاحة','footerText':'برو\x20هاكر\x20©\x202026\x20—\x20هاكات\x20روبلوكس\x20احترافية','downloadBtnText':'تحميل','downloadBtnSubtext':'تثبيت\x20آمن\x20وموثوق','downloadToastMsg':'جاري\x20التوجيه\x20إلى\x20رابط\x20التحميل...','statusWorking':'يعمل\x20وغير\x20مكتشف','scriptHubTitle':'مكتبة\x20السكريبتات','scriptHubDesc':'انسخ\x20السكريبتات\x20والأكواد\x20الجاهزة\x20للتشغيل\x20بضغطة\x20واحدة','faqTitle':'الأسئلة\x20الشائعة','faqDesc':'كل\x20ما\x20تحتاج\x20معرفته\x20حول\x20استخدام\x20وتثبيت\x20الأدوات','copyText':'نسخ\x20الكود','copiedText':'تم\x20النسخ'},'sections':[{'id':'real-executor','title':'Real\x20Executor','icon':'💎','version':'v1.4.1','description':'محرك\x20تشغيل\x20متقدم\x20مصمم\x20للاستقرار،\x20الأداء\x20العالي،\x20وتشغيل\x20السكريبتات\x20بسلاسة','downloads':[{'label':'تحميل\x20Real\x20Executor','subtext':'تثبيت\x20آمن\x20وموثوق','link':'https://short-jambo.ink/fWJ1kb'}],'features':[{'title':'محرر\x20واستكشاف\x20سكريبتات\x20متعدد\x20التبويبات','desc':'بيئة\x20عمل\x20متقدمة\x20لإنشاء\x20السكريبتات\x20تدعم\x20التعديل\x20متعدد\x20التبويبات،\x20تظليل\x20البرمجة،\x20واستكشاف\x20الملفات.','badge':'المحرر','image':'images/real1.png'},{'title':'نظرة\x20عامة\x20على\x20النظام\x20والترخيص','desc':'إدارة\x20خطط\x20الوصول\x20بما\x20في\x20ذلك\x20التحقق\x20الآمن\x20من\x20المفاتيح،\x20تقارير\x20التوافق،\x20وسجلات\x20التغييرات\x20الاصدار\x201.4.1.','badge':'لوحة\x20التحكم','image':'images/real2.png'},{'title':'مكتبة\x20السكريبتات','desc':'تصفح،\x20حفظ،\x20وتشغيل\x20المئات\x20من\x20السكريبتات\x20الموثوقة\x20وبروتوكولات\x20تخطي\x20حماية\x20الألعاب\x20مباشرة.','badge':'المكتبة\x20المدمجة','image':'images/real3.png'},{'title':'مغير\x20العتاد\x20والمحركات\x20(Spoofer)','desc':'مغير\x20MAC\x20مدمج،\x20محملات\x20برامج\x20تشغيل\x20النواة،\x20ومنظفات\x20السجلات\x20التلقائية\x20للحفاظ\x20على\x20الخصوصية\x20والتخطي\x20الآمن.','badge':'الحماية\x20والتخفي','image':'images/real4.png'}]},{'id':'velocity-executor','title':'Velocity','icon':'🚀','version':'v1.2.4','description':'إطار\x20عمل\x20التشغيل\x20من\x20الجيل\x20الجديد\x20v1.2.4\x20المصمم\x20لمعالجة\x20السكريبتات\x20فائقة\x20السرعة\x20والتخفي\x20من\x20التسجيل.','downloads':[{'label':'تحميل\x20Velocity','subtext':'سريع\x20وخفيف\x20الوزن','link':'https://short-jambo.ink/2emp'}],'features':[{'title':'بيئة\x20سكريبتات\x20عالية\x20الأداء','desc':'محرر\x20أكواد\x20حديث\x20متعدد\x20التبويبات\x20مع\x20دعم\x20الدوال\x20العالمية\x20وتصحيح\x20الأخطاء\x20المباشر.','badge':'التشغيل\x20والمحرر','image':'images/velocity1.png'},{'title':'إعدادات\x20التخفي\x20والواجهة','desc':'مجموعة\x20إعدادات\x20متقدمة\x20تشمل\x20إخفاء\x20الشاشة\x20عن\x20برامج\x20التسجيل\x20(OBS)\x20والحفاظ\x20على\x20حجم\x20عناصر\x20الواجهة.','badge':'الإعدادات\x20والتخفي','image':'images/velocity2.png'}]},{'id':'xeno-executor','title':'Xeno','icon':'🪐','version':'v1.3.55','description':'هاك\x20لتشغيل\x20سكريبتات\x20روبلوكس\x20قوية\x20تتميز\x20بدعم\x20الكثير\x20من\x20السكربتات\x20وواجهات\x20متعددة\x20تناسب\x20جميع\x20الاستخدامات','downloads':[{'label':'تحميل\x20Xeno\x20Legacy','subtext':'النسخة\x20الكلاسيكية','link':'https://short-jambo.ink/fWJ1kb'},{'label':'تحميل\x20Xeno\x20Modern','subtext':'النسخة\x20الحديثة','link':'https://short-jambo.ink/2emp'}],'features':[{'title':'واجهة\x20Xeno\x20Legacy\x20(النسخة\x20الكلاسيكية)','desc':'واجهة\x20خفيفة\x20ومباشرة\x20تحتوي\x20على\x20شريط\x20تبويبات\x20علوي\x20وشريط\x20أدوات\x20سريع\x20في\x20الأسفل\x20مع\x20دعم\x20كامل\x20لتنفيذ\x20السكريبتات','badge':'النسخة\x20الكلاسيكية\x20Legacy','image':'images/xeno_legacy.png'},{'title':'واجهة\x20Xeno\x20Modern\x20(النسخة\x20الحديثة)','desc':'تصميم\x20متطور\x20مع\x20القائمة\x20الجانبية\x20لإدارة\x20المشغل\x20و\x20المكتبة\x20وإدارة\x20الإعدادات\x20جنبًا\x20إلى\x20جنب\x20مع\x20محرر\x20السكريبتات\x20المتقدم','badge':'النسخة\x20الحديثة\x20Modern','image':'images/xeno_modern.png'}]}],'scripts':[{'title':'Infinite\x20Yield\x20Admin\x20Script','code':'loadstring(game:HttpGet(\x27https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source\x27))()'},{'title':'Fly\x20Script\x20(Universal)','code':'loadstring(game:HttpGet(\x27https://raw.githubusercontent.com/jensonhirst/FlyScript/main/FlyScript.lua\x27))()'}],'faqs':[{'question':'هل\x20هذه\x20الأدوات\x20والمشغلات\x20آمنة؟','answer':'نعم،\x20يتم\x20فحص\x20جميع\x20الملفات\x20والروابط\x20بدقة\x20قبل\x20إدراجها\x20في\x20الموقع\x20للتأكد\x20من\x20خلوها\x20من\x20أي\x20مخاطر\x20وتوفير\x20أقصى\x20درجات\x20التخفي.'},{'question':'كيف\x20أحل\x20مشكلة\x20إغلاق\x20المشغل\x20تلقائياً\x20عند\x20الفتح؟','answer':'تأكد\x20من\x20تعطيل\x20الحماية\x20المباشرة\x20لمكافح\x20الفيروسات\x20(Windows\x20Defender)\x20مؤقتاً،\x20حيث\x20قد\x20يعتبر\x20النظام\x20هذه\x20الأدوات\x20إنذاراً\x20خاطئاً\x20(False\x20Positive).'},{'question':'ماذا\x20أفعل\x20إذا\x20كان\x20رابط\x20التحميل\x20لا\x20يعمل؟','answer':'تأكد\x20من\x20إيقاف\x20مانع\x20الإعلانات\x20(AdBlocker)\x20أو\x20أعد\x20محاولة\x20التصفح\x20لاحقاً،\x20حيث\x20يتم\x20تحديث\x20الروابط\x20باستمرار.'}]}};let currentLang=localStorage['getItem']('app_lang')||'en';function getI18nData(){return I18N[currentLang];}
+const I18N = {
+  en: {
+    siteConfig: {
+      siteName: "Pro Hacker",
+      tagline: "The Premium Directory for Roblox Executors.",
+      heroButton: "View Executors",
+      heroBadge: "🔥 Roblox Exploits Hub — Undetected Hacks 🔥",
+      statLabel: "Available Hacks",
+      footerText: "Pro Hacker © 2026 — Premium Roblox Hacks",
+      downloadBtnText: "Download",
+      downloadBtnSubtext: "Secure & Verified Setup",
+      statusWorking: "Working & Undetected",
+      scriptHubTitle: "Script Hub",
+      scriptHubDesc: "Quickly copy useful scripts and execution codes.",
+      faqTitle: "Frequently Asked Questions",
+      faqDesc: "Everything you need to know about using our tools.",
+      copyText: "Copy Code",
+      copiedText: "Copied!"
+    },
+    adblock: {
+      title: "AdBlock Detected",
+      desc: "We noticed that you are using an AdBlocker. Please disable AdBlock for our website to support us and enable all site features and downloads.",
+      button: "I Have Disabled AdBlock (Refresh)"
+    },
+    sections: [
+      {
+        id: "real-executor",
+        title: "Real Executor",
+        icon: "💎", 
+        version: "v1.4.1",
+        description: "Advanced execution engine optimized for stability, high performance, and smooth script execution.",
+        downloads: [
+          {
+            label: "Download Real Executor",
+            subtext: "Secure & Verified Setup",
+            link: "https://short-jambo.ink/fWJ1kb"
+          }
+        ], 
+        features: [
+          {
+            title: "Tabbed IDE & Script Explorer",
+            desc: "Advanced script creation workspace supporting multi-tab editing, real-time syntax highlighting, tab system, and quick sidebar file exploration.",
+            badge: "Editor",
+            image: "images/real1.png"
+          },
+          {
+            title: "License & System Overview",
+            desc: "Transparent access plan management including secure key validation, hardware compatibility reporting, and detailed version 1.4.1 change-logs.",
+            badge: "Dashboard",
+            image: "images/real2.png"
+          },
+          {
+            title: "Cloud Script Hub & Discovery",
+            desc: "Browse, save, and launch hundreds of community-verified execution scripts and built-in anti-cheat removal protocols directly from the cloud repository.",
+            badge: "Integrated Hub",
+            image: "images/real3.png"
+          },
+          {
+            title: "Hardware Spoofer & Drivers",
+            desc: "Integrated MAC address randomizer, smart kernel driver loaders, and automatic log cleaners designed to maintain total privacy and secure bypasses.",
+            badge: "Stealth Security",
+            image: "images/real4.png"
+          }
+        ]
+      },
+      {
+        id: "velocity-executor",
+        title: "Velocity",
+        icon: "🚀",
+        version: "v1.2.4",
+        description: "Next-gen execution framework v1.2.4 built for high-speed script processing, streamproof protection, and full UI customization.",
+        downloads: [
+          {
+            label: "Download Velocity",
+            subtext: "Fast & Lightweight",
+            link: "https://short-jambo.ink/2emp"
+          }
+        ], 
+        features: [
+          {
+            title: "High-Performance Script Environment",
+            desc: "Features a modern multi-tab code editor with fast environment functions, full global support (getscripts, getsenv, getthreadidentity), and integrated output debugging.",
+            badge: "IDE & Execution",
+            image: "images/velocity1.png"
+          },
+          {
+            title: "Streamproof & Interface Controls",
+            desc: "Advanced configuration suite including Top Most display toggle, Screen Capture / OBS Hiding for seamless recording, and automated UI element size preservation.",
+            badge: "Settings & Stealth",
+            image: "images/velocity2.png"
+          }
+        ]
+      },
+      {
+        id: "xeno-executor",
+        title: "Xeno",
+        icon: "🪐",
+        version: "v1.3.55",
+        description: "Hack for running powerful Roblox scripts, featuring support for a wide range of scripts and multiple interfaces to suit all use cases",
+        downloads: [
+          {
+            label: "Download Xeno Legacy",
+            subtext: "The Classic Version",
+            link: "https://short-jambo.ink/fWJ1kb"
+          },
+          {
+            label: "Download Xeno Modern",
+            subtext: "The modern Version",
+            link: "https://short-jambo.ink/2emp"
+          }
+        ],
+        features: [
+          {
+            title: "Xeno Legacy Interface",
+            desc: "A lightweight, straightforward interface featuring a top tab bar and a quick-access toolbar at the bottom, with full support for script execution",
+            badge: "Legacy Edition",
+            image: "images/xeno_legacy.png"
+          },
+          {
+            title: "Xeno Modern Dashboard",
+            desc: "A sophisticated design featuring a side menu for managing the operator, library, and settings, alongside an advanced script editor",
+            badge: "Modern Edition",
+            image: "images/xeno_modern.png"
+          }
+        ]
+      }
+    ],
+    scripts: [
+      {
+        title: "Infinite Yield Admin Script",
+        code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()`
+      },
+      {
+        title: "Fly Script (Universal)",
+        code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/FlyScript/main/FlyScript.lua'))()`
+      }
+    ],
+    faqs: [
+      {
+        question: "Are these executors safe to use?",
+        answer: "Yes, all links and files are thoroughly checked and verified before listing. We ensure maximum security and stealth against detections."
+      },
+      {
+        question: "How do I fix issues where the executor closes on start?",
+        answer: "Make sure your Antivirus / Windows Defender real-time protection is temporarily turned off, as false positives are common with executor tools."
+      },
+      {
+        question: "What should I do if a link isn't working?",
+        answer: "Check your internet connection or ad-blocker settings. If the download link remains unavailable, please check back shortly."
+      }
+    ]
+  },
+  ar: {
+    siteConfig: {
+      siteName: "برو هاكر",
+      tagline: "الدليل المميز من هاكات روبلوكس",
+      heroButton: "استعراض الهاكات",
+      heroBadge: "🔥 مركز هاكات روبلوكس — هاكات غير مكتشفة 🔥",
+      statLabel: "الهاكات المتاحة",
+      footerText: "برو هاكر © 2026 — هاكات روبلوكس احترافية",
+      downloadBtnText: "تحميل",
+      downloadBtnSubtext: "تثبيت آمن وموثوق",
+      statusWorking: "يعمل وغير مكتشف",
+      scriptHubTitle: "مكتبة السكريبتات",
+      scriptHubDesc: "انسخ السكريبتات والأكواد الجاهزة للتشغيل بضغطة واحدة",
+      faqTitle: "الأسئلة الشائعة",
+      faqDesc: "كل ما تحتاج معرفته حول استخدام وتثبيت الأدوات",
+      copyText: "نسخ الكود",
+      copiedText: "تم النسخ"
+    },
+    adblock: {
+      title: "تم اكتشاف مانع الإعلانات",
+      desc: "يبدو أنك تستخدم مانع الإعلانات (AdBlock). يرجى تعطيل مانع الإعلانات في موقعنا لدعمنا والتمكن من الاستفادة من خدمات الموقع وروابط التحميل.",
+      button: "لقد قمت بإيقاف مانع الإعلانات (إعادة تحميل)"
+    },
+    sections: [
+      {
+        id: "real-executor",
+        title: "Real Executor",
+        icon: "💎", 
+        version: "v1.4.1",
+        description: "محرك تشغيل متقدم مصمم للاستقرار، الأداء العالي، وتشغيل السكريبتات بسلاسة",
+        downloads: [
+          {
+            label: "تحميل Real Executor",
+            subtext: "تثبيت آمن وموثوق",
+            link: "https://short-jambo.ink/fWJ1kb"
+          }
+        ], 
+        features: [
+          {
+            title: "محرر واستكشاف سكريبتات متعدد التبويبات",
+            desc: "بيئة عمل متقدمة لإنشاء السكريبتات تدعم التعديل متعدد التبويبات، تظليل البرمجة، واستكشاف الملفات.",
+            badge: "المحرر",
+            image: "images/real1.png"
+          },
+          {
+            title: "نظرة عامة على النظام والترخيص",
+            desc: "إدارة خطط الوصول بما في ذلك التحقق الآمن من المفاتيح، تقارير التوافق، وسجلات التغييرات الاصدار 1.4.1.",
+            badge: "لوحة التحكم",
+            image: "images/real2.png"
+          },
+          {
+            title: "مكتبة السكريبتات",
+            desc: "تصفح، حفظ، وتشغيل المئات من السكريبتات الموثوقة وبروتوكولات تخطي حماية الألعاب مباشرة.",
+            badge: "المكتبة المدمجة",
+            image: "images/real3.png"
+          },
+          {
+            title: "مغير العتاد والمحركات (Spoofer)",
+            desc: "مغير MAC مدمج، محملات برامج تشغيل النواة، ومنظفات السجلات التلقائية للحفاظ على الخصوصية والتخطي الآمن.",
+            badge: "الحماية والتخفي",
+            image: "images/real4.png"
+          }
+        ]
+      },
+      {
+        id: "velocity-executor",
+        title: "Velocity",
+        icon: "🚀",
+        version: "v1.2.4",
+        description: "إطار عمل التشغيل من الجيل الجديد v1.2.4 المصمم لمعالجة السكريبتات فائقة السرعة والتخفي من التسجيل.",
+        downloads: [
+          {
+            label: "تحميل Velocity",
+            subtext: "سريع وخفيف الوزن",
+            link: "https://short-jambo.ink/2emp"
+          }
+        ], 
+        features: [
+          {
+            title: "بيئة سكريبتات عالية الأداء",
+            desc: "محرر أكواد حديث متعدد التبويبات مع دعم الدوال العالمية وتصحيح الأخطاء المباشر.",
+            badge: "التشغيل والمحرر",
+            image: "images/velocity1.png"
+          },
+          {
+            title: "إعدادات التخفي والواجهة",
+            desc: "مجموعة إعدادات متقدمة تشمل إخفاء الشاشة عن برامج التسجيل (OBS) والحفاظ على حجم عناصر الواجهة.",
+            badge: "الإعدادات والتخفي",
+            image: "images/velocity2.png"
+          }
+        ]
+      },
+      {
+        id: "xeno-executor",
+        title: "Xeno",
+        icon: "🪐",
+        version: "v1.3.55",
+        description: "هاك لتشغيل سكريبتات روبلوكس قوية تتميز بدعم الكثير من السكربتات وواجهات متعددة تناسب جميع الاستخدامات",
+        downloads: [
+          {
+            label: "تحميل Xeno Legacy",
+            subtext: "النسخة الكلاسيكية",
+            link: "https://short-jambo.ink/fWJ1kb"
+          },
+          {
+            label: "تحميل Xeno Modern",
+            subtext: "النسخة الحديثة",
+            link: "https://short-jambo.ink/2emp"
+          }
+        ],
+        features: [
+          {
+            title: "واجهة Xeno Legacy (النسخة الكلاسيكية)",
+            desc: "واجهة خفيفة ومباشرة تحتوي على شريط تبويبات علوي وشريط أدوات سريع في الأسفل مع دعم كامل لتنفيذ السكريبتات",
+            badge: "النسخة الكلاسيكية Legacy",
+            image: "images/xeno_legacy.png"
+          },
+          {
+            title: "واجهة Xeno Modern (النسخة الحديثة)",
+            desc: "تصميم متطور مع القائمة الجانبية لإدارة المشغل و المكتبة وإدارة الإعدادات جنبًا إلى جنب مع محرر السكريبتات المتقدم",
+            badge: "النسخة الحديثة Modern",
+            image: "images/xeno_modern.png"
+          }
+        ]
+      }
+    ],
+    scripts: [
+      {
+        title: "Infinite Yield Admin Script",
+        code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()`
+      },
+      {
+        title: "Fly Script (Universal)",
+        code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/FlyScript/main/FlyScript.lua'))()`
+      }
+    ],
+    faqs: [
+      {
+        question: "هل هذه الأدوات والمشغلات آمنة؟",
+        answer: "نعم، يتم فحص جميع الملفات والروابط بدقة قبل إدراجها في الموقع للتأكد من خلوها من أي مخاطر وتوفير أقصى درجات التخفي."
+      },
+      {
+        question: "كيف أحل مشكلة إغلاق المشغل تلقائياً عند الفتح؟",
+        answer: "تأكد من تعطيل الحماية المباشرة لمكافح الفيروسات (Windows Defender) مؤقتاً، حيث قد يعتبر النظام هذه الأدوات إنذاراً خاطئاً (False Positive)."
+      },
+      {
+        question: "ماذا أفعل إذا كان رابط التحميل لا يعمل؟",
+        answer: "تأكد من إيقاف مانع الإعلانات (AdBlocker) أو أعد محاولة التصفح لاحقاً، حيث يتم تحديث الروابط باستمرار."
+      }
+    ]
+  }
+};
+
+let currentLang = localStorage.getItem('app_lang') || 'en';
+
+function getI18nData() {
+  return I18N[currentLang];
+}
