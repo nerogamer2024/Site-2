@@ -101,12 +101,12 @@ const I18N = {
           {
             label: "Download Xeno Legacy",
             subtext: "The Classic Version",
-            link: "https://short-jambo.ink/fWJ1kb"
+            link: "https://short-jambo.ink/KaSV"
           },
           {
             label: "Download Xeno Modern",
             subtext: "The modern Version",
-            link: "https://short-jambo.ink/2emp"
+            link: "https://short-jambo.ink/ZlcRWd"
           }
         ],
         features: [
@@ -274,16 +274,6 @@ const I18N = {
             image: "images/xeno_modern.png"
           }
         ]
-      }
-    ],
-    scripts: [
-      {
-        title: "Infinite Yield Admin Script",
-        code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()`
-      },
-      {
-        title: "Fly Script (Universal)",
-        code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/FlyScript/main/FlyScript.lua'))()`
       }
     ],
     faqs: [
