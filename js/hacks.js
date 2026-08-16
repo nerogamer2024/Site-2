@@ -123,6 +123,40 @@ const I18N = {
             image: "images/xeno_modern.png"
           }
         ]
+      },
+      {
+        id: "madium-executor",
+        title: "Madium",
+        icon: "⚡",
+        version: "v1.0.0",
+        description: "Powerful modern execution framework featuring an advanced script explorer, integrated cloud hub, and customizable core settings.",
+        downloads: [
+          {
+            label: "Download Madium",
+            subtext: "Fast & Verified Setup",
+            link: "https://nitro-link.com/jp4ss67W"
+          }
+        ],
+        features: [
+          {
+            title: "Advanced Code Editor & Explorer",
+            desc: "Modern multi-tab IDE with Luau syntax execution, file tree explorer, built-in output console, and real-time execution tools",
+            badge: "IDE & Explorer",
+            image: "images/madium1.png"
+          },
+          {
+            title: "Integrated Cloud Script Hub",
+            desc: "Browse and discover hundreds of verified scripts directly across top sources like Rscripts, ScriptBlox, and RobloxScripts with filter tags",
+            badge: "Cloud Hub",
+            image: "images/madium2.png"
+          },
+          {
+            title: "Core System Settings & Customization",
+            desc: "Full control over execution preferences including auto-attach, primary script auto-execution, capture privacy (OBS hiding), and custom keybinds",
+            badge: "Settings & Options",
+            image: "images/madium3.png"
+          }
+        ]
       }
     ],
     scripts: [
@@ -252,12 +286,12 @@ const I18N = {
           {
             label: "تحميل Xeno Legacy",
             subtext: "النسخة الكلاسيكية",
-            link: "https://short-jambo.ink/fWJ1kb"
+            link: "https://short-jambo.ink/KaSV"
           },
           {
             label: "تحميل Xeno Modern",
             subtext: "النسخة الحديثة",
-            link: "https://short-jambo.ink/2emp"
+            link: "https://short-jambo.ink/ZlcRWd"
           }
         ],
         features: [
@@ -272,6 +306,40 @@ const I18N = {
             desc: "تصميم متطور مع القائمة الجانبية لإدارة المشغل و المكتبة وإدارة الإعدادات جنبًا إلى جنب مع محرر السكريبتات المتقدم",
             badge: "النسخة الحديثة Modern",
             image: "images/xeno_modern.png"
+          }
+        ]
+      },
+      {
+        id: "madium-executor",
+        title: "Madium",
+        icon: "⚡",
+        version: "v1.0.0",
+        description: "إطار عمل تشغيل حديث وقوي يتميز بمستكشف سكريبتات متقدم و مكتبة سحابية مدمجة و إعدادات مخصصة بالكامل",
+        downloads: [
+          {
+            label: "تحميل Madium",
+            subtext: "تثبيت سريع وآمن",
+            link: "https://nitro-link.com/jp4ss67W"
+          }
+        ],
+        features: [
+          {
+            title: "محرر الأكواد ومستكشف الملفات المتقدم",
+            desc: "بيئة تطوير حديثة متعددة التبويبات مع تشغيل أكواد Luau ومستكشف شجرة الملفات ونافذة Console مدمجة",
+            badge: "المحرر والمستكشف",
+            image: "images/madium1.png"
+          },
+          {
+            title: "مكتبة السكريبتات السحابية المدمجة",
+            desc: "تصفح واستكشف المئات من السكريبتات الموثوقة مباشرة من أفضل المصادر مثل Rscripts و ScriptBlox و RobloxScripts",
+            badge: "المكتبة السحابية",
+            image: "images/madium2.png"
+          },
+          {
+            title: "إعدادات النظام والتخصيص",
+            desc: "تحكم كامل في خيارات التشغيل بما في ذلك الربط التلقائي (Auto Attach) حماية التجسس (OBS Hiding) وتخصيص الاختصارات",
+            badge: "الإعدادات والخيارات",
+            image: "images/madium3.png"
           }
         ]
       }

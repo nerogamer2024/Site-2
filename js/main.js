@@ -27,49 +27,23 @@ async function checkAdBlock() {
 
   await new Promise((resolve) => setTimeout(resolve, 150));
 
-  const bounds = baitContainer.getBoundingClientRect();
   const computedStyle = window.getComputedStyle(baitContainer);
-  const innerComputed = window.getComputedStyle(baitInner);
 
   if (
-    bounds.height === 0 ||
-    bounds.width === 0 ||
     computedStyle.display === 'none' ||
     computedStyle.visibility === 'hidden' ||
     computedStyle.opacity === '0' ||
-    innerComputed.display === 'none' ||
-    baitContainer.offsetHeight === 0 ||
-    baitContainer.clientHeight === 0
+    baitContainer.offsetHeight === 0
   ) {
     isBlocked = true;
   }
 
   baitContainer.remove();
 
-  if (!isBlocked) {
-    const adUrls = [
-      'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-      'https://securepubads.g.doubleclick.net/tag/js/gpt.js',
-      'https://aax.amazon-adsystem.com/s/v3/common/apstag.js'
-    ];
-
-    const fetchCheck = async (url) => {
-      try {
-        const response = await fetch(new Request(url, { mode: 'no-cors', cache: 'no-store' }));
-        return false;
-      } catch (e) {
-        return true;
-      }
-    };
-
-    const results = await Promise.all(adUrls.map(fetchCheck));
-    if (results.some((blocked) => blocked === true)) {
-      isBlocked = true;
-    }
-  }
-
   if (isBlocked) {
     showAdBlockModal();
+  } else {
+    hideAdBlockModal();
   }
 }
 
@@ -78,6 +52,14 @@ function showAdBlockModal() {
   if (overlay) {
     overlay.classList.add('active');
     document.body.style.overflow = 'hidden';
+  }
+}
+
+function hideAdBlockModal() {
+  const overlay = document.getElementById('adblock-overlay');
+  if (overlay) {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
   }
 }
 
@@ -164,11 +146,14 @@ function initLiveSearch() {
 
   searchInput.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase().trim();
-    const sections = document.querySelectorAll('.hack-section');
+    const sections = document.querySelectorAll('.hack-section[data-index]');
 
     sections.forEach((section) => {
-      const text = section.innerText.toLowerCase();
-      if (text.includes(query) || query === '') {
+      const title = section.querySelector('.section-title')?.textContent.toLowerCase() || '';
+      const desc = section.querySelector('.section-desc')?.textContent.toLowerCase() || '';
+      const fullContent = section.innerText.toLowerCase();
+
+      if (query === '' || title.includes(query) || desc.includes(query) || fullContent.includes(query)) {
         section.style.display = 'block';
       } else {
         section.style.display = 'none';
@@ -312,13 +297,6 @@ function initInteractiveButtons() {
 
   buttons.forEach((btn) => {
     let ticking = false;
-
-    btn.addEventListener('click', () => {
-      const data = getI18nData();
-      if (data && data.siteConfig) {
-        showToast(data.siteConfig.downloadToastMsg);
-      }
-    });
 
     btn.addEventListener('mousemove', (e) => {
       if (!ticking) {
@@ -606,7 +584,6 @@ function handleDownloadClick(event, url) {
     }
   }, 2000);
 }
-
 
 document.addEventListener("DOMContentLoaded", () => {
   applyLanguageUI();
