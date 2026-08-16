@@ -134,7 +134,7 @@ const I18N = {
           {
             label: "Download Madium",
             subtext: "Fast & Verified Setup",
-            link: "https://nitro-link.com/jp4ss67W"
+            link: "https://short-jambo.ink/o2MGRNWm"
           }
         ],
         features: [
@@ -319,7 +319,7 @@ const I18N = {
           {
             label: "تحميل Madium",
             subtext: "تثبيت سريع وآمن",
-            link: "https://nitro-link.com/jp4ss67W"
+            link: "https://short-jambo.ink/o2MGRNWm"
           }
         ],
         features: [
