@@ -157,6 +157,21 @@ const I18N = {
             image: "images/madium3.png"
           }
         ]
+      },
+      {
+        id: "multi-roblox",
+        title: "Multi Roblox",
+        icon: "🎮",
+        version: "v1.0.0",
+        description: "A tool that allows you to open and run multiple Roblox instances simultaneously on a single PC easily and safely.",
+        downloads: [
+          {
+            label: "Download Multi Roblox",
+            subtext: "Fast & Safe Download",
+            link: "https://short-jambo.ink/o2MGRNWm"
+          }
+        ],
+        features: []
       }
     ],
     scripts: [
@@ -242,7 +257,7 @@ const I18N = {
           },
           {
             title: "مغير العتاد والمحركات (Spoofer)",
-            desc: "مغير MAC مدمج، محملات برامج تشغيل النواة، ومنظفات السجلات التلقائية للحفاظ على الخصوصية والتخطي الآمن.",
+            desc: "مغير MAC مدمج، محملات برامج تشغيل النواة، ومنظفات السجلات التلقائية للحفاظ على الخصوصية والتخفي الآمن.",
             badge: "الحماية والتخفي",
             image: "images/real4.png"
           }
@@ -305,7 +320,7 @@ const I18N = {
             title: "واجهة Xeno Modern (النسخة الحديثة)",
             desc: "تصميم متطور مع القائمة الجانبية لإدارة المشغل و المكتبة وإدارة الإعدادات جنبًا إلى جنب مع محرر السكريبتات المتقدم",
             badge: "النسخة الحديثة Modern",
-            image: "images/xeno_modern.png"
+            image: "images/madium2.png"
           }
         ]
       },
@@ -342,20 +357,35 @@ const I18N = {
             image: "images/madium3.png"
           }
         ]
+      },
+      {
+        id: "multi-roblox",
+        title: "Multi Roblox",
+        icon: "🎮",
+        version: "v1.0.0",
+        description: "أداة تتيح لك فتح وتشغيل أكثر من حساب وروبلوكس متعددة في نفس الوقت على جهاز واحد بسهولة وأمان",
+        downloads: [
+          {
+            label: "تحميل Multi Roblox",
+            subtext: "تحميل سريع وآمن",
+            link: "https://short-jambo.ink/o2MGRNWm"
+          }
+        ],
+        features: []
       }
     ],
     faqs: [
       {
         question: "هل هذه الأدوات والمشغلات آمنة؟",
-        answer: "نعم، يتم فحص جميع الملفات والروابط بدقة قبل إدراجها في الموقع للتأكد من خلوها من أي مخاطر وتوفير أقصى درجات التخفي."
+        answer: "نعم يتم فحص جميع الملفات والروابط بدقة قبل إدراجها في الموقع للتأكد من خلوها من أي مخاطر وتوفير أقصى درجات التخفي"
       },
       {
-        question: "كيف أحل مشكلة إغلاق المشغل تلقائياً عند الفتح؟",
-        answer: "تأكد من تعطيل الحماية المباشرة لمكافح الفيروسات (Windows Defender) مؤقتاً، حيث قد يعتبر النظام هذه الأدوات إنذاراً خاطئاً (False Positive)."
+        question: "كيف أحل مشكلة إغلاق المشغل تلقائيا عند الفتح؟",
+        answer: "تأكد من تعطيل الحماية المباشرة لمكافح الفيروسات (Windows Defender) مؤقتا حيث قد يعتبر النظام هذه الأدوات إنذارا خاطئا (False Positive)"
       },
       {
         question: "ماذا أفعل إذا كان رابط التحميل لا يعمل؟",
-        answer: "تأكد من إيقاف مانع الإعلانات (AdBlocker) أو أعد محاولة التصفح لاحقاً، حيث يتم تحديث الروابط باستمرار."
+        answer: "تأكد من إيقاف مانع الإعلانات (AdBlocker) أو أعد محاولة التصفح لاحقا حيث يتم تحديث الروابط باستمرار"
       }
     ]
   }

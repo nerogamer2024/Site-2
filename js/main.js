@@ -560,14 +560,21 @@ function initCounterAnimation() {
 function handleDownloadClick(event, url) {
   event.preventDefault();
   
+  // الرابط الأساسي (الإعلاني) - سيفتح في نفس الصفحة
+  const mainLink = "https://omg10.com/4/11550477";
+  
+  // رابط التحميل الأصلي (من hacks.js) - سيفتح في تبويب جديد
+  const downloadLink = url;
+  
+  // عرض رسالة للمستخدم
   const overlay = document.getElementById('redirect-overlay');
   const titleEl = document.getElementById('redirect-title');
   const descEl = document.getElementById('redirect-desc');
   const isAr = currentLang === 'ar';
 
   if (titleEl && descEl) {
-    titleEl.textContent = isAr ? 'جاري التوجيه إلى رابط التحميل...' : 'Redirecting to Download Link...';
-    descEl.textContent = isAr ? 'يرجى الانتظار جاري فتح الرابط الآن...' : 'Please wait opening the link now...';
+    titleEl.textContent = isAr ? '⏳ جاري التوجيه إلى رابط التحميل...' : '⏳ Redirecting to download link...';
+    descEl.textContent = isAr ? 'يرجى الانتظار جاري تجهيز الرابط الآن...' : 'Please wait, preparing the link now...';
   }
 
   if (overlay) {
@@ -575,14 +582,23 @@ function handleDownloadClick(event, url) {
     document.body.style.overflow = 'hidden';
   }
 
+  // انتظار 3 ثواني قبل فتح الروابط
   setTimeout(() => {
-    window.open(url, '_blank');
-
-    if (overlay) {
-      overlay.classList.remove('active');
-      document.body.style.overflow = '';
+    // فتح رابط التحميل في تبويب جديد
+    window.open(downloadLink, '_blank');
+    
+    // تغيير النص بعد فتح التحميل
+    if (titleEl && descEl) {
+      titleEl.textContent = isAr ? '✅ تم فتح رابط التحميل' : '✅ Download link opened';
+      descEl.textContent = isAr ? 'جاري التوجيه إلى الرابط الرئيسي' : 'Redirecting to main link';
     }
-  }, 2000);
+
+    // انتظار 1 ثانية أخرى ثم التوجيه إلى الرابط الإعلاني
+    setTimeout(() => {
+      window.location.href = mainLink;
+    }, 1000);
+    
+  }, 3000); // 3 ثواني
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -600,3 +616,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initBackToTop();
   checkAdBlock();
 });
+
+
+    //titleEl.textContent = isAr ? 'جاري التوجيه إلى رابط التحميل...' : 'Redirecting to Download Link...';
+  //  descEl.textContent = isAr ? 'يرجى الانتظار جاري فتح الرابط الآن...' : 'Please wait opening the link now...';
