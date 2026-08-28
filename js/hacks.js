@@ -159,11 +159,45 @@ const I18N = {
         ]
       },
       {
+        id: "nexomia-executor",
+        title: "Nexomia",
+        icon: "🌌",
+        version: "v1.0.0",
+        description: "A modern Roblox scripting workspace combining a powerful code editor, an organized script hub, and flexible customization in one clean interface",
+        downloads: [
+  {
+    label: "Download Nexomia",
+    subtext: "Fast & Verified Setup",
+    link: "https://short-jambo.ink/qPzRf"
+  }
+],
+        features: [
+          {
+            title: "Advanced Code Editor & Workspace",
+            desc: "A clean development workspace with a multi-tab editor, Luau syntax highlighting, integrated console output, and a dedicated script workspace for smoother editing",
+            badge: "Editor & Workspace",
+            image: "images/Nexomia1.png"
+          },
+          {
+            title: "Integrated Script Hub",
+            desc: "Browse and organize a wide range of Roblox scripts from a single interface, with categories, quick actions, and an easy-to-navigate script library",
+            badge: "Script Hub",
+            image: "images/Nexomia2.png"
+          },
+          {
+            title: "Editor Settings & Customization",
+            desc: "Fine-tune the editor experience with font controls, line height, tab spacing, ligatures, word wrapping, and other workspace preferences",
+            badge: "Settings & Customization",
+            image: "images/Nexomia3.png"
+          }
+        ]
+      },
+      {
         id: "multi-roblox",
         title: "Multi Roblox",
         icon: "🎮",
         version: "v1.0.0",
-        description: "A tool that allows you to open and run multiple Roblox instances simultaneously on a single PC easily and safely.",
+        description: "A tool that allows you to open and run multiple Roblox instances simultaneously on a single PC easily and safely",
         downloads: [
           {
             label: "Download Multi Roblox",
@@ -320,7 +354,7 @@ const I18N = {
             title: "واجهة Xeno Modern (النسخة الحديثة)",
             desc: "تصميم متطور مع القائمة الجانبية لإدارة المشغل و المكتبة وإدارة الإعدادات جنبًا إلى جنب مع محرر السكريبتات المتقدم",
             badge: "النسخة الحديثة Modern",
-            image: "images/madium2.png"
+            image: "images/xeno_modern.png"
           }
         ]
       },
@@ -355,6 +389,40 @@ const I18N = {
             desc: "تحكم كامل في خيارات التشغيل بما في ذلك الربط التلقائي (Auto Attach) حماية التجسس (OBS Hiding) وتخصيص الاختصارات",
             badge: "الإعدادات والخيارات",
             image: "images/madium3.png"
+          }
+        ]
+      },
+      {
+        id: "nexomia-executor",
+        title: "Nexomia",
+        icon: "🌌",
+        version: "v1.0.0",
+        description: "بيئة حديثة لسكريبتات روبلوكس تجمع بين محرر أكواد متطور ومكتبة سكريبتات منظمة وإعدادات مرنة داخل واجهة واحدة",
+        downloads: [
+  {
+    label: "تحميل Nexomia",
+    subtext: "تثبيت سريع وموثوق",
+    link: "https://short-jambo.ink/qPzRf"
+  }
+],
+        features: [
+          {
+            title: "محرر الأكواد وبيئة العمل المتقدمة",
+            desc: "بيئة عمل نظيفة تحتوي على محرر متعدد التبويبات تمييز أكواد Luau نافذة Console مدمجة ومساحة مخصصة لإدارة وتعديل السكريبتات بسهولة",
+            badge: "المحرر وبيئة العمل",
+            image: "images/Nexomia1.png"
+          },
+          {
+            title: "مكتبة السكريبتات المدمجة",
+            desc: "تصفح وتنظيم مجموعة واسعة من سكريبتات روبلوكس من خلال واجهة واحدة مع تصنيفات وإجراءات سريعة ومكتبة سهلة الاستخدام",
+            badge: "مكتبة السكريبتات",
+            image: "images/Nexomia2.png"
+          },
+          {
+            title: "إعدادات المحرر والتخصيص",
+            desc: "تحكم في تجربة المحرر من خلال إعدادات الخط ارتفاع السطر، حجم التبويب Ligatures التفاف النص وغيرها من خيارات بيئة العمل",
+            badge: "الإعدادات والتخصيص",
+            image: "images/Nexomia3.png"
           }
         ]
       },
