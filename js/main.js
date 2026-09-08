@@ -350,7 +350,7 @@ function renderSections() {
         ${section.features.map((feat) => `
           <div class="showcase-row reveal">
             <div class="program-media">
-              <img src="${feat.image}" alt="${feat.title}" class="program-img" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='https://placehold.co/600x400/0a1020/3b82f6?text=${feat.badge}';" />
+              <img src="${feat.image}" alt="${feat.title}" class="program-img" decoding="async" onerror="this.onerror=null; this.src='https://placehold.co/600x400/0a1020/3b82f6?text=${feat.badge}';" />
             </div>
             <div class="program-feature-info">
               <span class="feat-badge">${feat.badge}</span>
@@ -386,14 +386,16 @@ function renderNav() {
   const data = getI18nData();
   if (!data || !data.sections) return;
 
-  nav.innerHTML = data.sections.map(
-    (section) => `
-    <a href="#${section.id}" class="nav-link" data-section="${section.id}">
+  nav.innerHTML = data.sections.map((section) => `
+    <a
+      href="javascript:void(0)"
+      class="nav-link"
+      data-section="${section.id}"
+    >
       <span class="nav-icon">${section.icon}</span>
       <span class="nav-text">${section.title}</span>
     </a>
-  `
-  ).join("");
+  `).join("");
 }
 
 function applyLanguageUI() {
@@ -479,24 +481,62 @@ function initScrollReveal() {
 }
 
 let navObserver = null;
+let manualScrolling = false;
+
+/* =========================================
+   NAV HIGHLIGHT
+========================================= */
 
 function initNavHighlight() {
-  if (navObserver) navObserver.disconnect();
+  if (navObserver) {
+    navObserver.disconnect();
+    navObserver = null;
+  }
 
-  const sections = document.querySelectorAll(".hack-section");
-  const navLinks = document.querySelectorAll(".nav-link");
+  const sections = Array.from(
+    document.querySelectorAll("#sections-container > .hack-section")
+  );
 
-  navObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        navLinks.forEach((link) => link.classList.remove("active"));
-        const active = document.querySelector(`.nav-link[data-section="${entry.target.id}"]`);
-        if (active) active.classList.add("active");
-      }
+  const navLinks = Array.from(
+    document.querySelectorAll("#section-nav .nav-link")
+  );
+
+  if (!sections.length || !navLinks.length) return;
+
+  function setActive(id) {
+    navLinks.forEach((link) => {
+      link.classList.toggle(
+        "active",
+        link.getAttribute("data-section") === id
+      );
     });
-  }, { threshold: 0.2, rootMargin: "-10% 0px -50% 0px" });
+  }
 
-  sections.forEach((section) => navObserver.observe(section));
+  function updateActive() {
+    if (manualScrolling) return;
+
+    const scrollPosition = window.scrollY + 150;
+
+    let currentSection = sections[0];
+
+    for (const section of sections) {
+      if (section.offsetTop <= scrollPosition) {
+        currentSection = section;
+      } else {
+        break;
+      }
+    }
+
+    if (currentSection) {
+      setActive(currentSection.id);
+    }
+  }
+
+  window.addEventListener("scroll", updateActive, {
+    passive: true
+  });
+
+  updateActive();
 }
 
 function initMobileMenu() {
@@ -523,14 +563,67 @@ function initMobileMenu() {
   });
 }
 
+let smoothScrollInitialized = false;
+
 function initSmoothScroll() {
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-    anchor.onclick = (e) => {
-      const target = document.querySelector(anchor.getAttribute("href"));
-      if (!target) return;
-      e.preventDefault();
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-    };
+  if (smoothScrollInitialized) return;
+  smoothScrollInitialized = true;
+
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("#section-nav .nav-link");
+
+    if (!link) return;
+
+    e.preventDefault();
+
+    const sectionId = link.dataset.section;
+
+    console.log("CLICKED NAV:", sectionId);
+
+    const target = document.getElementById(sectionId);
+
+    console.log("TARGET:", target);
+
+    if (!target) {
+      console.error("❌ SECTION NOT FOUND:", sectionId);
+      return;
+    }
+
+    // إلغاء أي smooth scrolling شغال
+    document.documentElement.style.scrollBehavior = "auto";
+    document.body.style.scrollBehavior = "auto";
+
+    // تفعيل الزر
+    document.querySelectorAll("#section-nav .nav-link").forEach((item) => {
+      item.classList.remove("active");
+    });
+
+    link.classList.add("active");
+
+    // مكان القسم الحقيقي بالنسبة للصفحة
+    const targetTop =
+      target.getBoundingClientRect().top + window.scrollY;
+
+    console.log("TARGET TOP:", targetTop);
+    console.log("TARGET ID:", target.id);
+
+    window.scrollTo({
+      top: Math.max(0, targetTop - 30),
+      behavior: "smooth"
+    });
+
+    // نتأكد بعد الحركة
+    setTimeout(() => {
+      const currentTop =
+        target.getBoundingClientRect().top + window.scrollY;
+
+      console.log("FINAL TARGET TOP:", currentTop);
+
+      window.scrollTo({
+        top: Math.max(0, currentTop - 30),
+        behavior: "auto"
+      });
+    }, 1000);
   });
 }
 

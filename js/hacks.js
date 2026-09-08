@@ -2,7 +2,7 @@ const I18N = {
   en: {
     siteConfig: {
       siteName: "Pro Hacker",
-      tagline: "The Premium Directory for Roblox Executors.",
+      tagline: "The Premium Directory for Roblox Executors",
       heroButton: "View Executors",
       heroBadge: "🔥 Roblox Exploits Hub — Undetected Hacks 🔥",
       statLabel: "Available Hacks",
@@ -11,86 +11,90 @@ const I18N = {
       downloadBtnSubtext: "Secure & Verified Setup",
       statusWorking: "Working & Undetected",
       scriptHubTitle: "Script Hub",
-      scriptHubDesc: "Quickly copy useful scripts and execution codes.",
+      scriptHubDesc: "Quickly copy useful scripts and execution codes",
       faqTitle: "Frequently Asked Questions",
-      faqDesc: "Everything you need to know about using our tools.",
+      faqDesc: "Everything you need to know about using our tools",
       copyText: "Copy Code",
       copiedText: "Copied!"
     },
+
     adblock: {
       title: "AdBlock Detected",
       desc: "We noticed that you are using an AdBlocker. Please disable AdBlock for our website to support us and enable all site features and downloads.",
       button: "I Have Disabled AdBlock (Refresh)"
     },
+
     sections: [
       {
         id: "real-executor",
         title: "Real Executor",
-        icon: "💎", 
+        icon: "💎",
         version: "v1.4.1",
-        description: "Advanced execution engine optimized for stability, high performance, and smooth script execution.",
+        description: "Advanced execution engine optimized for stability, high performance, and smooth script execution",
         downloads: [
           {
             label: "Download Real Executor",
             subtext: "Secure & Verified Setup",
             link: "https://short-jambo.ink/fWJ1kb"
           }
-        ], 
+        ],
         features: [
           {
             title: "Tabbed IDE & Script Explorer",
-            desc: "Advanced script creation workspace supporting multi-tab editing, real-time syntax highlighting, tab system, and quick sidebar file exploration.",
+            desc: "Advanced script creation workspace supporting multi-tab editing, real-time syntax highlighting, tab system, and quick sidebar file exploration",
             badge: "Editor",
             image: "images/real1.png"
           },
           {
             title: "License & System Overview",
-            desc: "Transparent access plan management including secure key validation, hardware compatibility reporting, and detailed version 1.4.1 change-logs.",
+            desc: "Transparent access plan management including secure key validation, hardware compatibility reporting, and detailed version 1.4.1 change-logs",
             badge: "Dashboard",
             image: "images/real2.png"
           },
           {
             title: "Cloud Script Hub & Discovery",
-            desc: "Browse, save, and launch hundreds of community-verified execution scripts and built-in anti-cheat removal protocols directly from the cloud repository.",
+            desc: "Browse, save, and launch hundreds of community-verified execution scripts and built-in anti-cheat removal protocols directly from the cloud repository",
             badge: "Integrated Hub",
             image: "images/real3.png"
           },
           {
             title: "Hardware Spoofer & Drivers",
-            desc: "Integrated MAC address randomizer, smart kernel driver loaders, and automatic log cleaners designed to maintain total privacy and secure bypasses.",
+            desc: "Integrated MAC address randomizer, smart kernel driver loaders, and automatic log cleaners designed to maintain total privacy and secure bypasses",
             badge: "Stealth Security",
             image: "images/real4.png"
           }
         ]
       },
+
       {
         id: "velocity-executor",
         title: "Velocity",
         icon: "🚀",
         version: "v1.2.4",
-        description: "Next-gen execution framework v1.2.4 built for high-speed script processing, streamproof protection, and full UI customization.",
+        description: "Next-gen execution framework v1.2.4 built for high-speed script processing, streamproof protection, and full UI customization",
         downloads: [
           {
             label: "Download Velocity",
             subtext: "Fast & Lightweight",
             link: "https://short-jambo.ink/2emp"
           }
-        ], 
+        ],
         features: [
           {
             title: "High-Performance Script Environment",
-            desc: "Features a modern multi-tab code editor with fast environment functions, full global support (getscripts, getsenv, getthreadidentity), and integrated output debugging.",
+            desc: "Features a modern multi-tab code editor with fast environment functions, full global support (getscripts, getsenv, getthreadidentity), and integrated output debugging",
             badge: "IDE & Execution",
             image: "images/velocity1.png"
           },
           {
             title: "Streamproof & Interface Controls",
-            desc: "Advanced configuration suite including Top Most display toggle, Screen Capture / OBS Hiding for seamless recording, and automated UI element size preservation.",
+            desc: "Advanced configuration suite including Top Most display toggle, Screen Capture / OBS Hiding for seamless recording, and automated UI element size preservation",
             badge: "Settings & Stealth",
             image: "images/velocity2.png"
           }
         ]
       },
+
       {
         id: "xeno-executor",
         title: "Xeno",
@@ -124,12 +128,13 @@ const I18N = {
           }
         ]
       },
+
       {
         id: "madium-executor",
         title: "Madium",
         icon: "⚡",
         version: "v1.0.0",
-        description: "Powerful modern execution framework featuring an advanced script explorer, integrated cloud hub, and customizable core settings.",
+        description: "Powerful modern execution framework featuring an advanced script explorer, integrated cloud hub, and customizable core settings",
         downloads: [
           {
             label: "Download Madium",
@@ -158,6 +163,7 @@ const I18N = {
           }
         ]
       },
+
       {
         id: "nexomia-executor",
         title: "Nexomia",
@@ -165,12 +171,12 @@ const I18N = {
         version: "v1.0.0",
         description: "A modern Roblox scripting workspace combining a powerful code editor, an organized script hub, and flexible customization in one clean interface",
         downloads: [
-  {
-    label: "Download Nexomia",
-    subtext: "Fast & Verified Setup",
-    link: "https://short-jambo.ink/qPzRf"
-  }
-],
+          {
+            label: "Download Nexomia",
+            subtext: "Fast & Verified Setup",
+            link: "https://short-jambo.ink/qPzRf"
+          }
+        ],
         features: [
           {
             title: "Advanced Code Editor & Workspace",
@@ -192,6 +198,42 @@ const I18N = {
           }
         ]
       },
+
+      {
+        id: "jjsploit-executor",
+        title: "JJSploit",
+        icon: "🔥",
+        version: "v8.20.7",
+        description: "A simple and lightweight Roblox execution suite featuring a launcher interface, built-in common cheat commands, and a multi-tab Lua editor",
+        downloads: [
+          {
+            label: "Download JJSploit",
+            subtext: "Fast & Verified Setup",
+            link: "https://rkns.link/nbfdg"
+          }
+        ],
+        features: [
+          {
+            title: "Main Interface & Mode Selector",
+            desc: "Clean startup window offering instant selection between full Lua Execution mode or quick-access Basic Cheats upon game load",
+            badge: "Main Launcher",
+            image: "images/jjsploit1.png"
+          },
+          {
+            title: "Built-in Commands & Cheats Hub",
+            desc: "Pre-loaded shortcuts for popular tools like Infinite Yield, Fly, ESP, Aimbot, Speed modifications, and character utilities",
+            badge: "Commands Hub",
+            image: "images/jjsploit2.png"
+          },
+          {
+            title: "Tabbed Lua Script Executor",
+            desc: "Lightweight code editor supporting multi-tab management, script loading, saving, and Autoexecute capabilities",
+            badge: "Lua Executor",
+            image: "images/jjsploit3.png"
+          }
+        ]
+      },
+
       {
         id: "multi-roblox",
         title: "Multi Roblox",
@@ -208,6 +250,7 @@ const I18N = {
         features: []
       }
     ],
+
     scripts: [
       {
         title: "Infinite Yield Admin Script",
@@ -218,21 +261,23 @@ const I18N = {
         code: `loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/FlyScript/main/FlyScript.lua'))()`
       }
     ],
+
     faqs: [
       {
         question: "Are these executors safe to use?",
-        answer: "Yes, all links and files are thoroughly checked and verified before listing. We ensure maximum security and stealth against detections."
+        answer: "Yes, all links and files are thoroughly checked and verified before listing. We ensure maximum security and stealth against detections"
       },
       {
         question: "How do I fix issues where the executor closes on start?",
-        answer: "Make sure your Antivirus / Windows Defender real-time protection is temporarily turned off, as false positives are common with executor tools."
+        answer: "Make sure your Antivirus / Windows Defender real-time protection is temporarily turned off, as false positives are common with executor tools"
       },
       {
         question: "What should I do if a link isn't working?",
-        answer: "Check your internet connection or ad-blocker settings. If the download link remains unavailable, please check back shortly."
+        answer: "Check your internet connection or ad-blocker settings. If the download link remains unavailable, please check back shortly"
       }
     ]
   },
+
   ar: {
     siteConfig: {
       siteName: "برو هاكر",
@@ -251,80 +296,84 @@ const I18N = {
       copyText: "نسخ الكود",
       copiedText: "تم النسخ"
     },
+
     adblock: {
       title: "تم اكتشاف مانع الإعلانات",
-      desc: "يبدو أنك تستخدم مانع الإعلانات (AdBlock). يرجى تعطيل مانع الإعلانات في موقعنا لدعمنا والتمكن من الاستفادة من خدمات الموقع وروابط التحميل.",
+      desc: "يبدو أنك تستخدم مانع الإعلانات (AdBlock). يرجى تعطيل مانع الإعلانات في موقعنا لدعمنا والتمكن من الاستفادة من خدمات الموقع وروابط التحميل",
       button: "لقد قمت بإيقاف مانع الإعلانات (إعادة تحميل)"
     },
+
     sections: [
       {
         id: "real-executor",
         title: "Real Executor",
-        icon: "💎", 
+        icon: "💎",
         version: "v1.4.1",
-        description: "محرك تشغيل متقدم مصمم للاستقرار، الأداء العالي، وتشغيل السكريبتات بسلاسة",
+        description: "محرك تشغيل متقدم مصمم للاستقرار الأداء العالي وتشغيل السكريبتات بسلاسة",
         downloads: [
           {
             label: "تحميل Real Executor",
             subtext: "تثبيت آمن وموثوق",
             link: "https://short-jambo.ink/fWJ1kb"
           }
-        ], 
+        ],
         features: [
           {
             title: "محرر واستكشاف سكريبتات متعدد التبويبات",
-            desc: "بيئة عمل متقدمة لإنشاء السكريبتات تدعم التعديل متعدد التبويبات، تظليل البرمجة، واستكشاف الملفات.",
+            desc: "بيئة عمل متقدمة لإنشاء السكريبتات تدعم التعديل متعدد التبويبات تظليل البرمجة واستكشاف الملفات",
             badge: "المحرر",
             image: "images/real1.png"
           },
           {
             title: "نظرة عامة على النظام والترخيص",
-            desc: "إدارة خطط الوصول بما في ذلك التحقق الآمن من المفاتيح، تقارير التوافق، وسجلات التغييرات الاصدار 1.4.1.",
+            desc: "إدارة خطط الوصول بما في ذلك التحقق الآمن من المفاتيح تقارير التوافق وسجلات التغييرات الاصدار 1.4.1",
             badge: "لوحة التحكم",
             image: "images/real2.png"
           },
           {
             title: "مكتبة السكريبتات",
-            desc: "تصفح، حفظ، وتشغيل المئات من السكريبتات الموثوقة وبروتوكولات تخطي حماية الألعاب مباشرة.",
+            desc: "تصفح حفظ وتشغيل المئات من السكريبتات الموثوقة وبروتوكولات تخطي حماية الألعاب مباشرة",
             badge: "المكتبة المدمجة",
             image: "images/real3.png"
           },
           {
             title: "مغير العتاد والمحركات (Spoofer)",
-            desc: "مغير MAC مدمج، محملات برامج تشغيل النواة، ومنظفات السجلات التلقائية للحفاظ على الخصوصية والتخفي الآمن.",
+            desc: "مغير MAC مدمج محملات برامج تشغيل النواة ومنظفات السجلات التلقائية للحفاظ على الخصوصية والتخفي الآمن",
             badge: "الحماية والتخفي",
             image: "images/real4.png"
           }
         ]
       },
+
       {
         id: "velocity-executor",
         title: "Velocity",
         icon: "🚀",
         version: "v1.2.4",
-        description: "إطار عمل التشغيل من الجيل الجديد v1.2.4 المصمم لمعالجة السكريبتات فائقة السرعة والتخفي من التسجيل.",
+        description: "إطار عمل التشغيل من الجيل الجديد v1.2.4 المصمم لمعالجة السكريبتات فائقة السرعة والتخفي من التسجيل",
         downloads: [
           {
             label: "تحميل Velocity",
             subtext: "سريع وخفيف الوزن",
             link: "https://short-jambo.ink/2emp"
           }
-        ], 
+        ],
         features: [
           {
             title: "بيئة سكريبتات عالية الأداء",
-            desc: "محرر أكواد حديث متعدد التبويبات مع دعم الدوال العالمية وتصحيح الأخطاء المباشر.",
+            desc: "محرر أكواد حديث متعدد التبويبات مع دعم الدوال العالمية وتصحيح الأخطاء المباشر",
             badge: "التشغيل والمحرر",
             image: "images/velocity1.png"
           },
           {
             title: "إعدادات التخفي والواجهة",
-            desc: "مجموعة إعدادات متقدمة تشمل إخفاء الشاشة عن برامج التسجيل (OBS) والحفاظ على حجم عناصر الواجهة.",
+            desc: "مجموعة إعدادات متقدمة تشمل إخفاء الشاشة عن برامج التسجيل (OBS) والحفاظ على حجم عناصر الواجهة",
             badge: "الإعدادات والتخفي",
             image: "images/velocity2.png"
           }
         ]
       },
+
       {
         id: "xeno-executor",
         title: "Xeno",
@@ -358,6 +407,7 @@ const I18N = {
           }
         ]
       },
+
       {
         id: "madium-executor",
         title: "Madium",
@@ -392,6 +442,7 @@ const I18N = {
           }
         ]
       },
+
       {
         id: "nexomia-executor",
         title: "Nexomia",
@@ -399,12 +450,12 @@ const I18N = {
         version: "v1.0.0",
         description: "بيئة حديثة لسكريبتات روبلوكس تجمع بين محرر أكواد متطور ومكتبة سكريبتات منظمة وإعدادات مرنة داخل واجهة واحدة",
         downloads: [
-  {
-    label: "تحميل Nexomia",
-    subtext: "تثبيت سريع وموثوق",
-    link: "https://short-jambo.ink/qPzRf"
-  }
-],
+          {
+            label: "تحميل Nexomia",
+            subtext: "تثبيت سريع وموثوق",
+            link: "https://short-jambo.ink/qPzRf"
+          }
+        ],
         features: [
           {
             title: "محرر الأكواد وبيئة العمل المتقدمة",
@@ -420,12 +471,48 @@ const I18N = {
           },
           {
             title: "إعدادات المحرر والتخصيص",
-            desc: "تحكم في تجربة المحرر من خلال إعدادات الخط ارتفاع السطر، حجم التبويب Ligatures التفاف النص وغيرها من خيارات بيئة العمل",
+            desc: "تحكم في تجربة المحرر من خلال إعدادات الخط ارتفاع السطر حجم التبويب Ligatures التفاف النص وغيرها من خيارات بيئة العمل",
             badge: "الإعدادات والتخصيص",
             image: "images/Nexomia3.png"
           }
         ]
       },
+
+      {
+        id: "jjsploit-executor",
+        title: "JJSploit",
+        icon: "🔥",
+        version: "v8.20.7",
+        description: "بيئة تشغيل خفيفة وسهلة الاستخدام لروبلوكس تتضمن واجهة اختيار الأنماط خيارات غش مجهزة مسبقا ومحرر أكواد Lua متعدد التبويبات",
+        downloads: [
+          {
+            label: "تحميل JJSploit",
+            subtext: "تثبيت سريع وموثوق",
+            link: "https://rkns.link/nbfdg"
+          }
+        ],
+        features: [
+          {
+            title: "الواجهة الرئيسية واختيار النمط",
+            desc: "نافذة تشغيل منظمة تتيح اختيار النمط فور اكتمال تحميل اللعبة بين مشغل السكريبتات (Executor) أو الأدوات الأساسية (Basic Cheats)",
+            badge: "الواجهة الرئيسية",
+            image: "images/jjsploit1.png"
+          },
+          {
+            title: "لوحة الأوامر والخيارات المدمجة",
+            desc: "قائمة أزرار سريعة للأدوات الشائعة مثل Infinite Yield، Fly، ESP، Aimbot، التعديل على السرعة وميزات التحكم بالشخصية",
+            badge: "الأوامر المدمجة",
+            image: "images/jjsploit2.png"
+          },
+          {
+            title: "محرر ومشغل السكريبتات (Lua Executor)",
+            desc: "محرر أكواد خفيف يدعم العمل بتبويبات متعددة حفظ وفتح الملفات والتشغيل التلقائي (Autoexecute) مع تنفيذ مباشر للسكريبتات",
+            badge: "محرر Lua",
+            image: "images/jjsploit3.png"
+          }
+        ]
+      },
+
       {
         id: "multi-roblox",
         title: "Multi Roblox",
@@ -442,6 +529,7 @@ const I18N = {
         features: []
       }
     ],
+
     faqs: [
       {
         question: "هل هذه الأدوات والمشغلات آمنة؟",
